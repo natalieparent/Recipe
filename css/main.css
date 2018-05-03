@@ -1,0 +1,59 @@
+html {
+background-color: #FCFAF2;
+}
+body {
+  background-color: #FCFAF2;
+  color: #3E3D43;
+  font-family: 'Prata', serif;
+  line-height: 2em;
+  font-size: 15px;
+}
+
+.border-decor{
+  padding-top: .125em;
+  border-top: .5em dotted #E3C8C3;
+
+  margin-top: 0%;
+}
+
+figcaption {
+  font-size: 13px;
+}
+a{
+color: #3E3D43;
+
+}
+a:hover {
+color: #3E3D43;
+}
+img {
+  height: 300px;
+  width: 300px;
+}
+h1 {
+font-family: 'Abril Fatface', cursive;
+
+
+}
+@media (min-width: 48em;){
+  #navbar.btn{
+    text-align:center;
+  }
+}
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
